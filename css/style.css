@@ -1,6 +1,7 @@
-/*========================
-Base Element Styles
-========================*/
+/*=== Web Fonts ===*/
+
+
+/*=== Base Element Styles ===*/
 * {
     box-sizing: border-box;
 }
@@ -8,4 +9,148 @@ Base Element Styles
 body {
     font-family: 'Roboto', sans-serif;
     background: #fff;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+a {
+    color: #595959;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+p {
+    font-size: 1.3em;
+    line-height: 1.6em;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 90%;
+    border-color: rgba(212, 212, 212, 0.3);
+}
+
+/*=== Base Layout Styles ===*/
+
+/*Navigation Styles*/
+
+.main-nav a {
+    width: 90%;
+    margin: 5px;
+    font-size: 1.5em;
+    color: #595959;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    background: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-nav a:hover {
+    color: black;
+}
+
+
+/*Layout Containers*/
+
+.main-header {
+    background: #f2f2f2;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 1em 1em 2em 1em;
+}
+
+.card {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.main {
+    text-align: center;
+}
+
+.calculator {
+    margin-bottom: 75px;
+}
+
+.contact {
+    text-align: center;
+    border-bottom: 5px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.main-footer {
+    background: #f2f2f2;
+    padding: 2em 0;
+}
+
+
+
+/*Page Elements*/
+
+.profile-image {
+    width: 250px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.portfolio {
+    padding-bottom: 30px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+
+/*=== Media Queries ===*/
+
+@media (min-width: 768px) {
+
+.wrap {
+    min-height: calc(100vh - 247.88px);
+}
+
+.container {
+    width: 85%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.headline {
+    float: left;
+}
+
+.main-nav {
+    float: right;
+}
+
+.main-nav li {
+    float: left;
+    margin-left: 1em;
+}
+
+.profile-image {
+   float: right; 
+}
+
+
+
+
+
+
 }
