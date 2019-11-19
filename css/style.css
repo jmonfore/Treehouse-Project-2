@@ -50,6 +50,11 @@ hr {
     border-color: rgba(212, 212, 212, 0.3);
 }
 
+#portfolio {
+    padding-bottom: 30px;
+    font-size: 1.2em;
+}
+
 /*=== Base Layout Styles ===*/
 
 /*Navigation Styles*/
@@ -90,28 +95,34 @@ hr {
     margin-bottom: 30px;
 }
 
-.contact {
+.connect {
     text-align: center;
     border-bottom: 5px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     margin-top: 30px;
 }
 
-.main-footer {
+.footer-container {
     background: #f2f2f2;
-    padding: 2em 1.5em 1.5em 1em;
-    margin-top: 75px;
+    padding: 1em 1em 5em 1em;
+    width: 100%;
+
 }
 
-.main-footer h1 {
-    font-size: 1.25em;
-    padding-top: 1em;
-    margin-left: 10px;
+.student{
+    float: left;
+    padding-left: 10px;
 }
 
-.main-footer li {
+.back-to-top{
+    float: right;
+    padding-right: 10px;
+}
+
+.footer-nav {
     display: none;
 }
+
 
 /*Page Elements*/
 
@@ -121,59 +132,19 @@ hr {
     padding-bottom: 10px;
 }
 
-.portfolio {
-    padding-bottom: 30px;
-    font-size: 1.2em;
-}
 
 
 /*=== Media Queries ===*/
 
 @media (min-width: 768px) {
 
-.wrap {
-    min-height: calc(100vh - 247.88px);
-}
-
 .container {
-    width: 85%;
+    width: 100%;
     max-width: 1024px;
     margin: 0 auto;
 }
 
-.headline {
-    float: left;
-}
 
-.main-nav {
-    float: right;
-}
-
-.main-nav li {
-    float: left;
-    margin-left: 1em;
-}
-
-.profile-image {
-   float: right; 
-}
-
-.marketing,
-.search,
-.travel,
-.favorite,
-.photo,
-.calculator {
-    width: 49.5%;
-}
-
-.search {
-    float: right;
-}
-
-.marketing{
-    float:left;
-}
 
 /*=== Clearfix ===*/
 
