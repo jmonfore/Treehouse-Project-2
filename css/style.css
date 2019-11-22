@@ -188,6 +188,10 @@ hr {
     margin-top: 30px;
 }
 
+.connect {
+    margin-left: 60px;
+    margin-right: 60px;
+}
 .main-footer {
     float: left;
     margin-top: 15px;
@@ -282,4 +286,6 @@ hr {
 
     .footer-container {
         margin-top: 30px;
-    }
+}
+
+}
